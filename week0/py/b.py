@@ -1,3 +1,5 @@
+#Instead of checking all possible conditions, we can append the
+# appropriate string to the answer string and construct the final answer.
 t=int(input())
 
 for _ in range(t):
