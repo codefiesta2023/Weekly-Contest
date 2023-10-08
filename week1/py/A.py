@@ -6,7 +6,7 @@ def gcd(a, b):
 
 # Define a function to calculate the least common multiple (LCM) of two numbers using GCD.
 def lcm(a, b):
-    return (a // gcd(a,b) * b)
+    return (a * b)//gcd(a,b)
 
 # Read the number of test cases from the user.
 t = int(input())
