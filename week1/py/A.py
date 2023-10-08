@@ -20,7 +20,7 @@ for _ in range(t):
     g = gcd(a, b)
     
     # Calculate the LCM of 'a' and 'b' using the 'lcm' function and the GCD 'g'.
-    l = lcm(a, b, g)
+    l = lcm(a, b)
     
     # Print the sum of GCD and LCM.
     print(g + l)
