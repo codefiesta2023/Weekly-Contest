@@ -2,6 +2,10 @@
 #define ll long long;
 using namespace std;
 
+//You need to use long long as while calculating numbers can get greater than 10^9
+//If you use, int you will get wrong answer due to overflow of integer when you multiply a by b while
+//calculating LCM.
+
 // Function to calculate the GCD (Greatest Common Divisor) of two numbers.
 long long gcd(long long a, long long b){
     if (b == 0) return a;
